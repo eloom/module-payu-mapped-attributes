@@ -1,0 +1,43 @@
+{
+  "name": "eloom/module-payu-mapped-attributes",
+  "description": "PayU Mapped Attributes for Customer",
+  "homepage": "https://eloom.tech/payu-latam",
+  "keywords": [
+    "magento",
+    "magento 2",
+    "commerce",
+    "ecommerce",
+    "e-commerce",
+    "payu",
+    "payu argentina",
+    "payu colombia",
+    "payment",
+    "shop",
+    "eloom"
+  ],
+  "authors": [
+    {
+      "name": "eloom",
+      "email": "contato@eloom.com.br"
+    }
+  ],
+  "support": {
+    "email": "contato@eloom.com.br"
+  },
+  "require": {
+    "php": "~7.2|~7.3|~7.4",
+    "magento/framework": "102.0.*|103.0.*"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "src/module-payu-mapped-attributes/registration.php"
+    ],
+    "psr-4": {
+      "Eloom\\PappedUAttributes\\": "src/module-payu-mapped-attributes"
+    }
+  }
+}
