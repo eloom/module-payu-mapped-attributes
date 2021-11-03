@@ -30,4 +30,12 @@ class MappedOrderAttributeDefinition extends \Magento\Framework\App\Helper\Abstr
 
 		return $order->getCustomerTaxvat();
 	}
+
+	public function getDniType(Order $order) {
+		if (null != $order->getBillingAddress()->getDnitype()) {
+			return $order->getBillingAddress()->getDnitype();
+		}
+
+		return null;
+	}
 }

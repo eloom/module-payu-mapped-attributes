@@ -28,7 +28,6 @@ class MappedQuoteAttributeDefinition extends \Magento\Framework\App\Helper\Abstr
 			return $quote->getBillingAddress()->getVatId();
 		}
 
-		//return $quote->getCustomerTaxvat();
-		return 11111;
+		return $quote->getCustomerTaxvat();
 	}
 }
