@@ -37,7 +37,7 @@
       "src/module-payu-mapped-attributes/registration.php"
     ],
     "psr-4": {
-      "Eloom\\PappedUAttributes\\": "src/module-payu-mapped-attributes"
+      "Eloom\\PayUMappedAttributes\\": "src/module-payu-mapped-attributes"
     }
   }
 }
