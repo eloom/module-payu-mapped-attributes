@@ -5,8 +5,8 @@
 * 
 * @category     elOOm
 * @package      Modulo PayUMappedAttributes
-* @copyright    Copyright (c) 2021 Ã©lOOm (https://eloom.tech)
-* @version      1.0.0
+* @copyright    Copyright (c) 2022 elOOm (https://eloom.tech)
+* @version      2.0.0
 * @license      https://eloom.tech/license
 *
 */
